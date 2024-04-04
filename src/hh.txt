@@ -1,0 +1,8 @@
+GET https://newsapi.org/v2/everything?q=bitcoin&apiKey=cc5d441deb4c49b89d983ce825b1e984
+
+
+@media only screen and (max-width:768px){
+  .topHeadlines{
+    display:none;
+  }
+}

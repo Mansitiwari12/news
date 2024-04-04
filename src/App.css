@@ -1,0 +1,31 @@
+.Animate{
+    animation: Animate 5s linear infinite;
+   
+}
+@keyframes Animate {
+    0%{
+        transform:translateY(0);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+    
+}
+.Box1{
+    position: relative;
+}
+.Headlines{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    
+}
+
+
+    
+    
