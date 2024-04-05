@@ -19,8 +19,7 @@ fetchHeadlines()
     <div>
        {news.map((ele)=>{
         return <div className='Animate'>
-            <p style={{color:'white'}}><li>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo minus cupiditate est, impedit labore accusantium quo nam quis ad fugit ipsam officia ut harum asperiores, qui dignissimos. Modi, obcaecati corrupti?</li></p>
+            <p style={{color:'white'}}>{ele.url}</p>
         </div>
              
       })}
